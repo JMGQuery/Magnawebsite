@@ -1,0 +1,28 @@
+.main-content-bio{
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+}
+
+.main-content-bio .main-bio{
+    position: relative;   
+    overflow: hidden;
+}   
+
+
+.main-content-bio .main-bio .biotitle{
+    position: absolute;
+    top:35%;
+    left:38%;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow:2px 2px #000000;
+
+}
+
+
+.bio-words {
+    text-align: center;
+    margin: 0px 200px;
+    font-size: 25px;
+}

@@ -1,0 +1,86 @@
+/* MODAL */
+
+.modalcontainer{
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 15%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+    
+}
+
+.modalcontainer .modal{
+
+    background-color: #44447a;
+    margin: auto;
+    border: 1px solid #ffffff;
+    width: 25%;
+    height:200px;
+    border-radius: 15px;
+    font-family: 'Permanent Marker', cursive; /*no tomo el font-family del body */
+    overflow: hidden;
+    
+}
+
+.modalcontainer .modal .closecontainer{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0px;
+    background-color: #1889ca;
+    
+}
+
+.modalcontainer .modal .closecontainer .closebtn{
+    border: 0px;
+    border-top-right-radius: 15px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.modalcontainer .modal .modalcard{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0 5%;
+
+}
+
+.modalcontainer .modal h1{
+    margin: 0px
+}
+
+.modalcontainer .modal .email{
+    font-family: 'Permanent Marker', cursive; /*no tomo el font-family del body */
+    border-radius: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.modalcontainer .modal .password{
+   border-radius: 15px;
+   margin: 5px 0px;
+   background-color: #ffffff;
+}
+ 
+.modalcontainer .modal .loginbtn{
+    font-family: 'Permanent Marker', cursive; 
+    border-radius: 15px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+    width: 80px;
+    
+}
+

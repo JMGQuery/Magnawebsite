@@ -63,16 +63,16 @@ body {
     max-width: 1200px;
 } 
 
-.maincontainer .card{
+.maincontainer .cardmain{
     margin: 10px;
     width: calc(100/3);
 }
 
-.maincontainer .card .img-container h1{
+.maincontainer .cardmain .img-container h1{
     color: #000000;
 }
 
-.maincontainer .card .img-container{
+.maincontainer .cardmain .img-container{
 
     overflow: hidden;
     text-align: center;

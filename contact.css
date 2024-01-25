@@ -1,0 +1,73 @@
+.main-contact{
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 900px;
+} 
+
+
+
+.main-contact .card-contact{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 320px;
+  height: 320px; 
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.contact-logo{
+  width: 60px;
+  height: 60px; 
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+} */
+
+/* h1 {
+    animation-name: newanimation;
+    animation-duration: 5s;
+}
+
+    @keyframes  newanimation {
+        from { 
+            font-size: 100px;
+            color: red;
+        }
+
+        to { 
+            font-size: 35px;
+            color: #000000;
+        }
+    }    */

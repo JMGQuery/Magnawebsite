@@ -1,9 +1,9 @@
-$(".main-content .maincontainer .card .img-container").on("mouseover",function ()
+$(".main-content .maincontainer .cardmain .img-container").on("mouseover",function ()
 {
 $(this).css('transform', 'scale(120%)');
 })
 
-$(".main-content .maincontainer .card .img-container").on("mouseout",function ()
+$(".main-content .maincontainer .cardmain .img-container").on("mouseout",function ()
 {
 $(this).css('transform', 'scale(100%)');
 })

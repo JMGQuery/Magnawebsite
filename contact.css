@@ -10,7 +10,7 @@
 
 .main-contact .card-contact{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 10px;
   width: 320px;
   height: 320px; 
@@ -29,6 +29,15 @@
   
 }
 
+.site-cover{
+  height: 120px;
+  width: 150px
+}
+
+.imgdivcontact{
+  display: flex;
+  flex-direction: row;
+}
 
 
 

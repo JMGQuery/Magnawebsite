@@ -5,24 +5,26 @@
 }
 
 .main-content-bio .main-bio{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     position: relative;   
     overflow: hidden;
 }   
 
 
 .main-content-bio .main-bio .biotitle{
+    
     position: absolute;
-    top:35%;
-    left:38%;
     font-size: 35px;
     color: #ffffff;
-    text-shadow:2px 2px #000000;
-
+    text-shadow: 2px 2px #000000;
+    margin: 30%;
 }
 
 
 .bio-words {
     text-align: center;
-    margin: 0px 200px;
+    margin: 0px 80px;
     font-size: 25px;
 }

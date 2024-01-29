@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  
+  transition: .75s;
 }
 
 
@@ -44,7 +44,7 @@
   width: 190px;
   border-radius: 15px;
   padding-top: 5px;
-  transition: .75s;
+
 }
 
 .imgdivcontact{

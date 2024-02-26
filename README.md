@@ -1,2 +1,2 @@
 # Magnawebsite
-Nothing, really
+Project for a music band website
